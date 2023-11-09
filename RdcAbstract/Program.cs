@@ -14,7 +14,7 @@ namespace RdcAbstract
             Comune Milano = new Comune("Milano",102,"Comune");
             //all'oggetto milano passiamo i dati di patrizio per ottenere il risultato idoneo al RDC.
             Milano.Calculate(Patrizio);
-
+            //
             Cittadino Elena = new StudenteUniversitario("Elena", "Sussurri", 24, 2, 98, true, 96, 28,false);
             Milano.Calculate(Elena);
 
