@@ -94,12 +94,11 @@ namespace BCEInterface
         }
 
         class EuroCentralBank : State
-
         {
             protected decimal _countrySpread;
 
             public EuroCentralBank(string Name, bool EuMember, bool OnuMember, bool Death, decimal CountrySpread) :
-                              base(Name, EuMember, OnuMember, Death, CountrySpread)
+                                  base(Name, EuMember, OnuMember, Death, CountrySpread)
             {
                 _countrySpread = CountrySpread;
             }
@@ -108,19 +107,9 @@ namespace BCEInterface
 
             public override double SpreadCalculate()
             {
-                double _spreadvalue = 0;
-                if (_countrySpread > 3)
-                {
-                    _spreadvalue = Convert.ToDouble(_countrySpread);
-
-                }
-                else if (_countrySpread <= 3)
-                {
-                    _spreadvalue = Convert.ToDouble(_countrySpread);
-                }
-                return _spreadvalue;
-
+                return (double)_countrySpread;
             }
         }
+
     }
 }
