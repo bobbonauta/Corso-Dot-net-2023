@@ -127,7 +127,7 @@ namespace RdcAbstract
         protected int _servizioAnni;
 
         public Militare(string Name, string surName, int age, int Figli, decimal PilComune, bool Debt, int ServizioAnni,bool Salary)
-                       :base(Name, surName, age, Figli, PilComune, Debt, Salary)
+                    :base(Name, surName, age, Figli, PilComune, Debt, Salary)
         {
             _servizioAnni = ServizioAnni;
         }
