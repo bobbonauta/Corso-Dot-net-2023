@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCEInterface", "BCEInterface\BCEInterface.csproj", "{FF3FA4D2-DE01-427B-A86B-44887A290989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Associations", "Associations\Associations.csproj", "{B2F10902-0065-4271-9AFC-6A2038AF00EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Associations", "Associations\Associations.csproj", "{B2F10902-0065-4271-9AFC-6A2038AF00EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EuServices", "EuServices\EuServices.csproj", "{32C86494-5D6F-4349-9255-CF40B496340C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B2F10902-0065-4271-9AFC-6A2038AF00EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F10902-0065-4271-9AFC-6A2038AF00EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F10902-0065-4271-9AFC-6A2038AF00EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C86494-5D6F-4349-9255-CF40B496340C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C86494-5D6F-4349-9255-CF40B496340C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C86494-5D6F-4349-9255-CF40B496340C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C86494-5D6F-4349-9255-CF40B496340C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
